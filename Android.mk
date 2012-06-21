@@ -28,7 +28,7 @@ LOCAL_MODULE_TAGS := debug
 LOCAL_MODULE := alsa_aplay
 
 LOCAL_SHARED_LIBRARIES := \
-	libaudio \
+	libasound \
 	libc
 
 include $(BUILD_EXECUTABLE)
@@ -60,7 +60,7 @@ LOCAL_MODULE_TAGS := debug
 LOCAL_MODULE := alsa_ctl
 
 LOCAL_SHARED_LIBRARIES := \
-	libaudio \
+	libasound \
 	libc
 
 include $(BUILD_EXECUTABLE)
@@ -89,7 +89,7 @@ LOCAL_MODULE_TAGS := debug
 LOCAL_MODULE := alsa_amixer
 
 LOCAL_SHARED_LIBRARIES := \
-	libaudio \
+	libasound \
 	libc
 
 include $(BUILD_EXECUTABLE)
